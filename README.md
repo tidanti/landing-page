@@ -1,2 +1,2 @@
 # landing-page
-Pure html & css.
+Pure HTML & CSS.
