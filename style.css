@@ -8,5 +8,35 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+
+.header .logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
