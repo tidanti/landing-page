@@ -171,16 +171,25 @@ h2 {
     align-self: flex-end;
 }
 
-.sign-up {
+.sign-up-container {
     margin-bottom: 100px;
     background-color: #3882F6;
-    color: white;
     border-radius: 5px;
+    width: 70%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    color: white;
     width: 70%;
     padding: 50px 0;
 
     display: flex;
-    justify-content: space-evenly;
+    gap: 20px;
+    justify-content: space-between;
 
 }
 
@@ -191,4 +200,16 @@ h2 {
 .sign-up .sign-up-btn {
     border: 2px solid white;
     align-self: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
