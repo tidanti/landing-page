@@ -59,6 +59,8 @@ body {
     width: 80%;
     padding: 100px 0;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 100px;
 }
 
@@ -66,6 +68,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
+    flex: auto;
+    width: 30%;
 }
 
 h1 {
@@ -87,9 +92,12 @@ h1 {
 }
 
 .header-image {
-    height: 100%;
+    height: auto;
     width: auto;
+    max-width: 100%;
     border-radius: 10px;
+
+    align-self: center;
 }
 
 .main-content {
